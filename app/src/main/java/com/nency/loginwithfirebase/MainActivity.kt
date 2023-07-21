@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun register(email: String, password: String) {
 
-        auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener {
+        auth.signInWithEmailAndPassword(email, password).addOnCompleteListener {
             if (it.isSuccessful){
                 startActivity(Intent(this,HomeActivity::class.java))
                 finish()
