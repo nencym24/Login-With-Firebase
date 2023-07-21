@@ -71,6 +71,7 @@
             android:layout_marginStart="@dimen/_10sdp"
             android:hint="Enter Password"
             android:background="@null"
+            android:inputType="numberPassword"
             android:textColor="@color/black"
             android:textSize="@dimen/_14sdp"
             android:padding="@dimen/_8sdp"/>
